@@ -1,0 +1,37 @@
+컬럼 ,카테고리,뜻 ,뜻,범위,단위,특징,데이터타입,결측값,예시
+ID,인구통계학적 변수,"고객의 기본적인 인구통계학적 특성을 나타내는 변수들, 개인의 신원 정보와 관련",고유한 식별자,50000,개,식별자,object,,
+Customer_ID,,,고객 식별자,12500,명,식별자,object,,
+Name,,,고객 이름 ,12500,개,식별자,object,5015,
+Age,,,고객의 나이,,,,int,,
+SSN,,,주민등록번호,12500,개,식별자 ,object,,
+Occupation,,,직업,16,개,,object,,
+Annual_Income,금융 정보 변수,"고객의 전반적인 금융 상태와 관련된 변수, 주로 소득과 부채 관련 정보 포함",연간 소득 ,,,고객의 연간 총 소득,float,,19114.12
+Monthly_Inhand_Salary,,,월 실수령 급여 ,303.645417 ~ 15204.63333,$ ?? ,세금 및 기타 공제를 제외한 월별 실수령 금액 ,float,7498,1824.843333
+Outstanding_Debt,,,미결제 부채 ,,,현재까지 결제되지 않은 부채의 총액 ,float,,
+Credit_Utilization_Ratio,,,신용 이용 비율 ,20.509652 ~ 48.5406633,%,사용 가능한 신용 한도 중 사용된 금액의 비율,float,,11.27
+Monthly_Balance,,,월말 잔액,,,월말 기준 계좌의 잔액,float ,562,
+Num_Bank_Accounts,거래 변수,"고객의 금융 거래 활동과 관련된 변수, 주로 은행 계좌와 신용카드, 대출 등 거래 관련 정보 포함 ",은행 계좌 수,-1 ~ 1798',개,고객이 보유한 은행 계좌의 수 ,int,,3
+Num_Credit_Card,,,신용카드 수,0 ~ 1499,개,고객이 보유한 신용카드의 수 ,int,,
+Total_EMI_per_month,,,월별 총 EMI <할부금>,0 ~ 82398,$?,고객이 매월 지불하는 EMI(원리금 균등 상환액)의 총합,float,,
+Amount_invested_monthly,,,월별 투자 금액 ,,,고객이 매월 투자하는 금액,float,2271,
+Num_of_Loan,,,대출 건수 ,,,고객이 받은 대출의 건수,int,,
+Type_of_Loan,,,대출 종류,,,고객이 받은 대출의 종류 ,int,5704,
+Interest_Rate,신용 변수 ,"고객의 신용 상태와 관련된 변수, 주로 신용 점수와 연체 관련 정보 포함",대출 이자율 ,1 ~ 5799,%,고객이 받은 대출의 이자율,float,,
+Delay_from_due_date,,,연체 기간,,,연체된 일수,int,,
+Num_of_Delayed_Payment,,,연체 횟수 ,,,연체된 결제의 횟수,int,3498,
+Changed_Credit_Limit,,,신용 한도 변경 여부 ,,,신용 한도가 변경된 횟수,int,,
+Num_Credit_Inquiries,,,신용 조회 수 ,,,신용 조회가 이루어진 횟수,int,1035,
+Credit_Mix,,,신용 구성 ,3,가지,고객의 신용 유형 구성,object,,"Standard, Good, _, Bad"
+Credit_History_Age,,,신용 기록 연령,399,가지,고객의 신용 기록 기간,object,4470,
+Payment_of_Min_Amount,결제 행동 변수 ,"고객의 결제 습고나과 관련된 변수들, 최소 결제 금액 지불 여부와 결제 행동 패턴 포함",최소 금액 지불 여부,3,가지,최소 지불 금액을 지불했는지 여부,object,,"Yes, No, NM..?"
+Payment_Behaviour,,,결제 행동 ,6,가지,고객의 결제 행동 패턴,object,,
+Month,,,데이터가 수집된 월 ?,,월 ,,object,,"september, october, november, december"
+,,,,,,,,,
+,,,,,,,object 19,,
+,,,,,,,float 4,,
+,,,,,,,int 4,,
+지출 금액(Spending Amount) ,소비한 총 금액 ,다양한 일상 소비 금액,,,,,,,
+결제 금액(Payment Amount),금융 기관이나 서비스 제공자에게 실제로 지불한 금액,"주로 금융 기관에 지불된 금액, 고객이 빚을 갚거나 금융 상품의 할부금을 지불하는 것을 포함",,,,,,,
+,,,,,,,,,
+주석,,,,,,,,,
+데이터 프레임 변수 : df 로 통일,,,,,,,,,
